@@ -1,0 +1,62 @@
+$calm: #003865;
+$assertive: #E10000;
+$positive: #BBBCBC;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.schedule {
+	background-color: #003865;
+}
+
+.bg-img {
+	margin-top: -.75em;
+}
+
+.head-img {
+	position: absolute;
+	top: 0;
+	margin-top: 6em;
+	margin-left: -1em;
+}
+
+.news {
+	background-color: #F0F0F0;
+	margin: .5em -2em -.5em -2em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.news-h1 {
+	margin-left: .8em;
+}
+
+.news-items {
+	margin-left: 1.65em;
+	background-color: #F0F0F0;
+	margin-right: 1.65em;
+}
+
+.divider {
+	color: #E10000;
+	font-size: 22px;
+}
+
+body.platform-ios {
+	font-family: Montserrat, sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: Montserrat, sans-serif;
+}
+
+body.platform-android {
+	font-family: Montserrat, sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: Montserrat, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
